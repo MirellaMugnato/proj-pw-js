@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade - PWI</title>
+    <link rel="stylesheet" href="./estilo.css">
+    <script src="./formulario.js"></script>
+</head>
+<body>
+    <h1>Glitch - Maquiagens</h1>
+    <hr>
+    <form id="linhaForm">
+    <input type="number" name="id" id="id" placeholder="Digite o Id do produto:" required>
+    <br><br>
+    <input type="text" name="produto" id="produto" placeholder="Digite qual é o produto:" required>
+    <br><br>
+    <input type="text" name="segmento" id="segmento" placeholder="Digite qual segmento do produto:" required>
+    <br><br>
+    <input type="text" name="marca" id="marca" placeholder="Marca do produto:" required>
+    <br><br>
+    <input type="number" name="valor" id="valor" placeholder="Digite o valor do produto:" required>
+    <br><br>
+    <label for="data">Data de venda:</label> 
+    <br><br>
+    <input type="date" name="data" id="data" placeholder="Data de venda:" required>
+    <br><br>
+    <button type="button" onclick="adicionarLinha()">Adicionar</button>
+    </form>
+    <br><br>
+    <table id="tabelaDados">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Produto</th>
+                <th>Segmento</th>
+                <th>Marca</th>
+                <th>Valor</th>
+                <th>Data</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+</body>
+</html>
